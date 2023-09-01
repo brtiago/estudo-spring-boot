@@ -24,3 +24,6 @@ Um projeto de clínica médica fictícia. Temos uma empresa chamada Voll Med, qu
 
 Será um aplicativo com algumas opções, em que a pessoa que for usar pode fazer o CRUD, tanto de médicos quanto de pacientes e o agendamento e cancelamento das consultas.
 
+## Links úteis
+- [API Voll.med Trello](https://trello.com/b/O0lGCsKb/api-voll-med)
+- [Layout das telas no Figma](https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med?type=design&mode=design)

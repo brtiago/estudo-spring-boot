@@ -26,12 +26,11 @@ public class Paciente {
     @Embedded
     private Endereco endereco;
 
-    public Paciente(Long id, String nome, String email, String telefone, String cpf, Endereco endereco) {
-        this.id = id;
-        this.nome = nome;
-        this.email = email;
-        this.telefone = telefone;
-        this.cpf = cpf;
-        this.endereco = endereco;
+    public Paciente(DadosCadastroPaciente dados) {
+        this.nome = dados.nome();
+        this.email = dados.email();
+        this.telefone = dados.telefone();
+        this.cpf = dados.cpf();
+        this.endereco = new Endereco(dados.endereco());
     }
 }
